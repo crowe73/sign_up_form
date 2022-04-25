@@ -7,3 +7,5 @@ Sign-up form for a webpage.
 04/18/2022 00:03 - Setup project.
 
 04/24/2022 20:26 - Set up basic structure of webpage.
+
+04/24/2022 21:18 - Complete visual responsiveness of form.

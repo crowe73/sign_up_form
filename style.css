@@ -52,7 +52,21 @@ body
 label, input
 {
     display: block;
+    border-radius: 5px;
 }
+
+input
+{
+    border-color: #e5e7eb;
+}
+
+input:focus
+{
+    border-color: blue;
+    border-width: 1px;
+    box-shadow: 5px 5px rgb(175, 173, 173);
+}
+
 
 .first-name, .email, .password
 {
@@ -63,4 +77,17 @@ label, input
 .last-name, .phone-number, .confirm-password
 {
     float: left;
+}
+
+.error
+{
+    border-color: red;
+    border-width: 1px;
+}
+
+.error-message
+{
+    color: red;
+    font-size: 12px;
+    margin: 0;
 }
