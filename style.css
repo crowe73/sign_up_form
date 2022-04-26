@@ -1,13 +1,23 @@
-body
+html, body
 {
     background-image: url("./images/melody-p-wFN9B3s_iik-unsplash-reduced-50-percent.jpg");
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+@font-face
+{
+
+    font-family: "MyWebFont";
+    src: url(./fonts/AbrilFatface-Regular.ttf) format("woff2");
+    src: url(./fonts/AbrilFatface-Regular.ttf) format("woff");
 }
 
 .container
 {
     display: flex;
+    height: 100%;
 }
 
 .left-column
@@ -25,20 +35,23 @@ body
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    height: 100%;
 }
 
 .top-card
 {
-    background-color: rgba(247, 244, 244, 1);
+    background-color: rgb(247, 244, 244);
     font-weight: 900;
-    padding: 125px 200px;
+    padding: 125px 200px 50px 200px;
+    height: 100%;
 }
 
 .form-card
 {
     background-color: white;
-    padding: 75px 100px;
+    padding: 75px 200px;
     align-self: stretch;
+    height: 100%;
 }
 
 label, input
@@ -63,8 +76,7 @@ input:focus
 .first-name, .email, .password
 {
     float: left;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .last-name, .phone-number, .confirm-password
@@ -83,4 +95,28 @@ input:focus
     color: red;
     font-size: 12px;
     margin: 0;
+}
+
+.bottom-card
+{
+    background-color: rgb(247, 244, 244);
+    padding: 50px 100px 100px 50px;
+    align-self: stretch;
+    height: 100%;
+}
+
+button
+{
+    background-color: blue;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+a
+{
+    color: blue;
+    text-decoration: none;
 }
