@@ -27,7 +27,13 @@ html, body
     color: whitesmoke;
     text-align: center;
     align-self: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+a
+{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
 }
 
 .right-column
@@ -115,8 +121,7 @@ button
     font-weight: 900;
 }
 
-a
+.link
 {
     color: blue;
-    text-decoration: none;
 }

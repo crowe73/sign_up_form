@@ -13,3 +13,5 @@ Sign-up form for a webpage.
 04/25/2022 22:55 - Code cleanup and minor bug fix.
 
 04/25/2022 00:37 - Add bottom card.
+
+04/27 00:25 - Final tweaks and cleanup.
